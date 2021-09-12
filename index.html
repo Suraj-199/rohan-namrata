@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROHAN & NAMRATA</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="./form-style.css">
+    <link rel="stylesheet" href="aos.css">
+    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Dancing+Script&amp;display=swap'>
+    <meta name="robots" content="noindex, follow">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style-carausel.css">
+    <link rel="stylesheet" href="./swiper.min.css">
+    
+    <!--Styles of carausel-->
+    
+<style>
+  .carausels {
+    position: relative;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 50px;
+      background:url(./101105-blue-circle-pattern-min.jpg);
+      background-size: cover;
+      justify-content: center;
+      z-index: 1;
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+  }
+
+  .swiper {
+      width: 100%;
+      padding-top: 50px;
+      padding-bottom: 200px;
+      
+  }
+
+  .swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 300px;
+      height: 400px;
+      
+  }
+
+  .swiper-slide img {
+      display: block;
+      
+  }
+
+  
+
+</style>
+    <!--Styles of carausel-->
+
+
+<body>
+  <a id="play-pause-button" class="fa fa-play"></a>
+       
+
+    <section class="s1" data-aos="zoom-in">
+     
+    </section>
+    <section class="s2" data-aos="zoom-in">
+       
+    </section>
+    <section class="s3" data-aos="zoom-in">
+     
+    </section>
+    <section class="s4" data-aos="zoom-in">
+    </section>
+
+    <!--Gallery-->
+    <section data-aos="zoom-in" class="carausels">
+      <!-- Swiper -->
+   <div class="swiper mySwiper">
+     <div class="swiper-wrapper">
+         <div class="swiper-slide">
+             <img src="./img/10.jpg" />
+         </div>
+         <div class="swiper-slide">
+             <img src="./img/1.jpg" />
+         </div>
+         <div class="swiper-slide">
+             <img src="./img/2.jpg" />
+         </div>
+         <div class="swiper-slide">
+             <img src="./img/3.jpg" />
+         </div>
+         <div class="swiper-slide">
+             <img src="./img/4.jpg" />
+         </div>
+         <div class="swiper-slide">
+             <img src="./img/5.jpg" />
+         </div>
+         <div class="swiper-slide">
+             <img src="./img/6.jpg" />
+         </div>
+         <div class="swiper-slide">
+             <img src="./img/7.jpg" />
+         </div>
+         <div class="swiper-slide">
+             <img src="./img/8.jpg" />
+         </div>
+         <div class="swiper-slide">
+             <img src="./img/9.jpg" />
+         </div>
+     </div>
+   
+ </div>
+</section>
+
+    <!--gallery-->
+    
+    <section data-aos="zoom-in" class="form-full">
+      <div class="wrapper">
+        <div class="inner">
+          <div class="image-holder">
+            <img src="./bindi-2416039_1920.jpg" alt="">
+          </div>
+          <form action="">
+            <h3 class="head1">Please give your RSVP</h3>
+            <div class="form-holder active">
+              <input type="text" placeholder="name" class="form-control">
+            </div>
+            <div class="form-holder">
+              <input type="text" placeholder="e-mail" class="form-control">
+            </div>
+            <div class="form-holder">
+              <input type="Mobile No" placeholder="Mobile No." class="form-control" style="font-size: 15px;">
+            </div>
+            <div class="checkbox">
+              <label>
+    
+                <p class="para" style="font-size: 20px;">You are invited to be an honourable guest at our wedding ceremony. We are
+                  anticipating seeing you at our grand wedding venue.</p>
+              </label>
+            </div>
+            <div class="contain">
+            <div class="form-login">
+              <button>Confirm</button>
+            </div>
+            <div class="form-login">
+              <button>Reject</button>
+            </div></div>
+        </div>
+        </form>
+      </div>
+    </section>
+
+    
+  <!-- Swiper JS -->
+  <script src="./swiper.min.js"></script>
+
+   
+
+    <script src="./jquery.min.js"></script>
+    <script src="./main.js"></script>
+
+    
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        loop:true,
+        autoplay:{
+                delay:1000,
+                disableOnInteraction: false,
+            },
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+            rotate: 30,
+            stretch: 0,
+            depth: 200,
+            modifier: 1,
+            slideShadows: true,
+           
+        },
+      /**  pagination: {
+            el: ".swiper-pagination",
+        },*/
+    });
+</script>
+  
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+  
+      gtag('config', 'UA-23581568-13');
+    </script>
+    <script defer src="https://static.cloudflareinsights.com/beacon.min.js"
+      data-cf-beacon='{"rayId":"67e46c2c3a9b0df1","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2021.8.0","si":10}'></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="aos.js"></script>
+    <!--INITIALIZE AOS-->
+    <script>
+      AOS.init({
+  // Global settings:
+  disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+  startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+  initClassName: 'aos-init', // class applied after initialization
+  animatedClassName: 'aos-animate', // class applied on animation
+  useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+  disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+  debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+  throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+  
+
+  // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+  offset: 200, // offset (in px) from the original trigger point
+  delay: 1, // values from 0 to 3000, with step 50ms
+  duration: 3000, // values from 0 to 3000, with step 50ms
+  easing: 'ease', // default easing for AOS animations
+  once: false, // whether animation should happen only once - while scrolling down
+  mirror: true, // whether elements should animate out while scrolling past them
+  anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+});
+</script>
+
+
+</body>
+</html>
