@@ -261,7 +261,7 @@ button:hover {
     display: block;
 }
 .image-holder {
-    width: 100%;
+    width: 0%;
     padding-right: 0;
 }
 form {
