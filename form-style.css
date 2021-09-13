@@ -12,7 +12,7 @@
     font-family: montserrat-regular;
     color: #999;
     font-size: 16px;
-    margin: 0;
+   
     position:relative;
    
 }
@@ -40,7 +40,7 @@ a:hover {
     outline: none;
 }
 .form-full {
-    padding: 40px 20px;
+    
     
     display: flex;
     align-items: center;
