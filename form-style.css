@@ -1,5 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 
 * {margin: 0;
     padding: 0;
@@ -9,7 +8,7 @@
 }
 .form-full{
     
-    font-family: montserrat-regular;
+    font-family: 'Varela Round', sans-serif;
     color: #999;
     font-size: 16px;
    
@@ -18,7 +17,7 @@
 }
 p, h1, h2, h3, h4, h5, h6, ul {
     margin: 0;
-    font-family: 'Satisfy', cursive;
+    font-family: 'Varela Round', sans-serif;
 }
 img {
     max-width: 100%;
@@ -75,7 +74,8 @@ form {
 }
 h3 {
     font-size: 35px;
-    font-family: 'Satisfy', cursive;
+    font-family: 'Varela Round', sans-serif;
+    font-weight:500;
     font-family: elmessiri-semibold;
     text-align: center;
     margin-bottom: 27px;
