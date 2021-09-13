@@ -1,7 +1,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
-* {
+* {margin: 0;
+    padding: 0;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -10,7 +11,7 @@
     
     font-family: montserrat-regular;
     color: #999;
-    font-size: 12px;
+    font-size: 16px;
     margin: 0;
     position:relative;
    
@@ -39,7 +40,8 @@ a:hover {
     outline: none;
 }
 .form-full {
-    min-height: 100vh;
+    padding: 40px 20px;
+    
     display: flex;
     align-items: center;
     background: url(./101105-blue-circle-pattern-min.jpg) no-repeat;
@@ -49,7 +51,11 @@ a:hover {
 .inner {
     max-width: 850px;
     margin: auto;
-    background: #4169e1;
+    background-color: #7f53ac;
+    background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
     display: flex;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, .2);
     -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, .2);
@@ -95,7 +101,7 @@ h3 {
 }
 .form-holder.active:before {
     border: 2px solid transparent;
-    background: #ff9a9c;
+    background: midnightblue;
 }
 .form-control {
     display: block;
@@ -274,9 +280,13 @@ button:hover {
     color:midnightblue;
 }
 
-@media(max-width:768px) {
+@media(max-width:500px) {
     .inner {
-        display: block;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0% 4% 4%;
     }
     .image-holder {
         width: 0%;
@@ -288,5 +298,6 @@ button:hover {
     }
     .wrapper {
         background: 0 0;
+        margin: 0 2%;
     }
     }
